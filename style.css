@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #F0F8FF;
 }
 .donate{
     background-image: url(images/donation.jpg);
@@ -8,6 +9,7 @@ body{
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover; 
+    padding-bottom: 60px;
 }
 .donate-quote{
     text-align: center;
@@ -18,3 +20,60 @@ body{
 .donate-quote p{
     background-color: rgb(39, 39, 238);
 }
+.font-s{
+    font-size: 30px;
+    
+}
+.paddin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text-a{
+    text-align: center;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.hori-ruler{
+    width: 30%;
+    text-align: center;
+}
+.to-do{
+    display: flex;
+}
+.update{
+    font-size: 40px;
+}
+.help{
+    width:40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.food{
+    background-color:#FAEBD7;
+}
+.shelter{
+    background-color: #DCDCDC;
+}
+.education{
+    background-color: #E6E6FA;
+}
+footer{
+    padding: 20px;
+    width: 100%;
+    background-color:rgb(191, 158, 158);
+    color: white;
+    text-align: center;
+    margin: 0;
+ }
